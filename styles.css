@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins" ,sans-serif;
+    height:100vh;
+    background-color: rgb(204, 241, 229);
+
+}
+nav{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(28, 200, 206,0.8);
+    color:white;
+
+}
+.menu a{
+    padding:20px;
+    margin: 20px;
+    text-decoration: none;
+    color:white;
+}
+img{
+    height:600px;
+    width:600px;
+}
+.interior_design{
+
+    padding:70px;
+    display:grid;
+    grid-template-columns:600px 600px ;
+    gap:20px;
+
+
+}
+.features{
+    padding:10px;
+    font-weight: 600;
+    
+}
+h1{
+    padding-left: 10px;
+
+}
+input{
+    height:20px
+}
+.contacts{
+    padding-left:40%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: aliceblue;
+}
+button{
+    border:none;
+    color: aliceblue;
+    border-radius: 10px;
+    padding:20px;
+    margin:10px;
+    background-color: brown;
+    width:80px;
+}
+h2:hover{
+    border-bottom: 10px solid brown;
+}
+button:hover{
+    background-color: rgb(36, 1, 1);
+}
+.menu a:hover{
+    border-bottom: 2px solid brown;
+}
